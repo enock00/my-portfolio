@@ -9,7 +9,12 @@
     "userInterfaceStyle": "automatic",
     "web": {
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "bundler": "metro",
+      "router": {
+  "origin": "auto"
+}
+
     },
     "plugins": ["expo-router"]
   }
